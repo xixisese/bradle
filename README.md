@@ -11,3 +11,4 @@ bradle taskName
 ```
 ## 教程
 [Groovy和DSL一: 模拟Gradle](http://liwuzhi.art/?p=700)
+[Groovy和DSL二：Closure Delegate](http://liwuzhi.art/?p=707)
