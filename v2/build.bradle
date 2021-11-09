@@ -1,0 +1,24 @@
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+}
+
+dependencies {
+    // Use JUnit test framework.
+    testImplementation 'junit:junit:4.13.2'
+
+    // This dependency is used by the application.
+    implementation 'com.google.guava:guava:30.1.1-jre'
+}
+
+tasks.register("t1"){
+    println "task t1 executed"
+}
+
+tasks.register("t2"){
+    doLast{
+        println "task t2 executed"
+    }
+}
+
+
